@@ -1,0 +1,288 @@
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; print(v)))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; print(v)), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; print(v)), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; print(v))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; print(v))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(v), v = 2]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(v), v = 2]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(v)]
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(v)]
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: [2]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; (print(v); Model.Statements.NopStmt@479126d)))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); Model.Statements.NopStmt@479126d)), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); Model.Statements.NopStmt@479126d)), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); Model.Statements.NopStmt@479126d))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); Model.Statements.NopStmt@479126d))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); Model.Statements.NopStmt@479126d), v = 2]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); Model.Statements.NopStmt@479126d), v = 2]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); Model.Statements.NopStmt@479126d)]
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); Model.Statements.NopStmt@479126d)]
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [Model.Statements.NopStmt@479126d, print(v)]
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [Model.Statements.NopStmt@479126d, print(v)]
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [Model.Statements.NopStmt@479126d]
+SymTable: {v->(2)}
+Output List: [2]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [Model.Statements.NopStmt@479126d]
+SymTable: {v->(2)}
+Output List: [2]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: [2]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; (print(v); )))]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); )), v int]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; (print(v); )))]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); )), v int]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; (print(v); )))]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); )), v int]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; (print(v); )))]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); )), v int]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; (print(v); )))]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 2; (print(v); )), v int]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 2; (print(v); )))]
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+Execution Stack: []
+Output List: []
+FileTable: []
+Heap: {}
+

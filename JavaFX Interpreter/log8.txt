@@ -1,0 +1,392 @@
+Program state:
+ID: 1 
+Execution Stack: [(v int; (a int; (v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))))))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a int; (v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a int; (v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a int; (v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))))))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a int; (v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))))))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))))), a int]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))))), a int]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))))]
+SymTable: {a->(int, 0), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 10; (new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))))]
+SymTable: {a->(int, 0), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))), v = 10]
+SymTable: {a->(int, 0), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))), v = 10]
+SymTable: {a->(int, 0), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))))]
+SymTable: {a->(int, 0), v->(10)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(a, 22); (fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))))]
+SymTable: {a->(int, 0), v->(10)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))), new(a, 22)]
+SymTable: {a->(int, 0), v->(10)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); ))), new(a, 22)]
+SymTable: {a->(int, 0), v->(10)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))); (print(v); (print(rH(a)); )))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); (print(rH(a)); )), fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); )))))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); (print(rH(a)); )), fork((wH(a, 30); (v = 32; (print(v); (print(rH(a)); )))))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); (print(rH(a)); ))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 2 
+Execution Stack: [(wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); (print(rH(a)); ))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 2 
+Execution Stack: [(wH(a, 30); (v = 32; (print(v); (print(rH(a)); ))))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(a)); ), print(v)]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 32; (print(v); (print(rH(a)); ))), wH(a, 30)]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(a)); ), print(v)]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 32; (print(v); (print(rH(a)); ))), wH(a, 30)]
+SymTable: {a->(int, 1), v->(10)}
+Output List: []
+FileTable: []
+Heap: {1->22}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(a)); )]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 32; (print(v); (print(rH(a)); )))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(a)); )]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 32; (print(v); (print(rH(a)); )))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: [, print(rH(a))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(v); (print(rH(a)); )), v = 32]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: [, print(rH(a))]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(v); (print(rH(a)); )), v = 32]
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(v); (print(rH(a)); ))]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(v); (print(rH(a)); ))]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {a->(int, 1), v->(10)}
+Output List: [10, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(rH(a)); ), print(v)]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(rH(a)); ), print(v)]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(rH(a)); )]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30, 32]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [(print(rH(a)); )]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30, 32]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [, print(rH(a))]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30, 32]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: [, print(rH(a))]
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30, 32]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30, 32, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30, 32, 30]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {a->(int, 1), v->(32)}
+Output List: [10, 30, 32, 30]
+FileTable: []
+Heap: {1->30}
+

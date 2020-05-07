@@ -1,0 +1,144 @@
+Program state:
+ID: 1 
+Execution Stack: [(a int; (b int; (a = 2 + 3 * 5; (b = a + 1; print(b)))))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b int; (a = 2 + 3 * 5; (b = a + 1; print(b)))), a int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b int; (a = 2 + 3 * 5; (b = a + 1; print(b)))), a int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b int; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymTable: {a->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b int; (a = 2 + 3 * 5; (b = a + 1; print(b))))]
+SymTable: {a->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = 2 + 3 * 5; (b = a + 1; print(b))), b int]
+SymTable: {a->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = 2 + 3 * 5; (b = a + 1; print(b))), b int]
+SymTable: {a->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymTable: {a->(0), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = 2 + 3 * 5; (b = a + 1; print(b)))]
+SymTable: {a->(0), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b = a + 1; print(b)), a = 2 + 3 * 5]
+SymTable: {a->(0), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b = a + 1; print(b)), a = 2 + 3 * 5]
+SymTable: {a->(0), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b = a + 1; print(b))]
+SymTable: {a->(17), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(b = a + 1; print(b))]
+SymTable: {a->(17), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(b), b = a + 1]
+SymTable: {a->(17), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(b), b = a + 1]
+SymTable: {a->(17), b->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(b)]
+SymTable: {a->(17), b->(18)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [print(b)]
+SymTable: {a->(17), b->(18)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {a->(17), b->(18)}
+Output List: [18]
+FileTable: []
+Heap: {}
+

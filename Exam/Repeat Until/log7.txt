@@ -1,0 +1,176 @@
+Program state:
+ID: 1 
+Execution Stack: [(v int; (new(v, 20); (print(rH(v)); (wH(v, 30); (print(rH(v) + 5); )))))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(v, 20); (print(rH(v)); (wH(v, 30); (print(rH(v) + 5); )))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(v, 20); (print(rH(v)); (wH(v, 30); (print(rH(v) + 5); )))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(v, 20); (print(rH(v)); (wH(v, 30); (print(rH(v) + 5); ))))]
+SymTable: {v->(int, 0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(new(v, 20); (print(rH(v)); (wH(v, 30); (print(rH(v) + 5); ))))]
+SymTable: {v->(int, 0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v)); (wH(v, 30); (print(rH(v) + 5); ))), new(v, 20)]
+SymTable: {v->(int, 0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v)); (wH(v, 30); (print(rH(v) + 5); ))), new(v, 20)]
+SymTable: {v->(int, 0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v)); (wH(v, 30); (print(rH(v) + 5); )))]
+SymTable: {v->(int, 1)}
+Output List: []
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v)); (wH(v, 30); (print(rH(v) + 5); )))]
+SymTable: {v->(int, 1)}
+Output List: []
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(wH(v, 30); (print(rH(v) + 5); )), print(rH(v))]
+SymTable: {v->(int, 1)}
+Output List: []
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(wH(v, 30); (print(rH(v) + 5); )), print(rH(v))]
+SymTable: {v->(int, 1)}
+Output List: []
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(wH(v, 30); (print(rH(v) + 5); ))]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(wH(v, 30); (print(rH(v) + 5); ))]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v) + 5); ), wH(v, 30)]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v) + 5); ), wH(v, 30)]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->20}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v) + 5); )]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(rH(v) + 5); )]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: [, print(rH(v) + 5)]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: [, print(rH(v) + 5)]
+SymTable: {v->(int, 1)}
+Output List: [20]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {v->(int, 1)}
+Output List: [20, 35]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {v->(int, 1)}
+Output List: [20, 35]
+FileTable: []
+Heap: {1->30}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {v->(int, 1)}
+Output List: [20, 35]
+FileTable: []
+Heap: {1->30}
+

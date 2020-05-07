@@ -1,0 +1,448 @@
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 1; (fork((v = 2; )); fork((v = 3; )))))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; )))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; )))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; ))))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; ))))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; ))), v = 1]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; ))), v = 1]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; )))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; )))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; )), fork((v = 2; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; )), fork((v = 2; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 2; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 2; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 2]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 3; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 2]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 3; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 3]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 3]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(3)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(3)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(3)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (v = 1; (fork((v = 2; )); fork((v = 3; )))))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; )))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; )))), v int]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; ))))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v = 1; (fork((v = 2; )); fork((v = 3; ))))]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; ))), v = 1]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; ))), v = 1]
+SymTable: {v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; )))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(fork((v = 2; )); fork((v = 3; )))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; )), fork((v = 2; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; )), fork((v = 2; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 2; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [fork((v = 3; ))]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 2; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 2]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 3; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 2]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [(v = 3; )]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 3]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: [, v = 3]
+SymTable: {v->(1)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(3)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(3)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 2 
+Execution Stack: []
+SymTable: {v->(3)}
+Output List: []
+FileTable: []
+Heap: {}
+

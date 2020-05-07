@@ -1,0 +1,121 @@
+package Model;
+
+import Model.DataStructures.CyclicBarrier.CyclicBarrier;
+import Model.DataStructures.CyclicBarrier.ICyclicBarrier;
+import Model.DataStructures.CyclicBarrier.Pair;
+import Model.DataStructures.Dictionary.MyDictionary;
+import Model.DataStructures.Dictionary.MyIDictionary;
+import Model.DataStructures.FileTable.FileTable;
+import Model.DataStructures.FileTable.IFileTable;
+import Model.DataStructures.Heap.MyHeap;
+import Model.DataStructures.Heap.MyIHeap;
+import Model.DataStructures.List.MyIList;
+import Model.DataStructures.List.MyList;
+import Model.DataStructures.Stack.MyIStack;
+import Model.DataStructures.Stack.MyStack;
+import Model.Exceptions.MyException;
+import Model.Statements.IStmt;
+import Model.Types.Type;
+import Model.Values.Value;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.util.List;
+
+public class PrgState {
+    private int lastID = 1;
+    private int threadID = 1;
+    private MyIStack<IStmt> exeStack;
+    private MyIDictionary<String, Value> symTable;
+    private MyIList<Value> out;
+    private IFileTable<String, BufferedReader> fileTable;
+    private MyIHeap<Value> heap;
+    private ICyclicBarrier<Integer, Pair<Integer, List<Integer>>> barrier;
+
+    public PrgState(ICyclicBarrier<Integer, Pair<Integer, List<Integer>>> barr, MyIStack<IStmt> stk, MyIDictionary<String, Value> symtbl, MyIList<Value> ot, IFileTable<String, BufferedReader> fTable, MyIHeap<Value> heapTable,
+             int id, IStmt prg)
+    {
+        barrier = barr;
+        exeStack = stk;
+        symTable = symtbl;
+        out = ot;
+        fileTable = fTable;
+        heap = heapTable;
+        threadID = id;
+
+        stk.push(prg);
+    }
+
+    public void setThreadID(int threadID) {
+        this.threadID = threadID;
+    }
+
+    public void setLastID(int lastID) {
+        this.lastID = lastID;
+    }
+
+    public int getThreadID() {
+        return threadID;
+    }
+
+    public int getLastID() {
+        return lastID;
+    }
+
+    public PrgState(IStmt prg) throws MyException {
+
+        barrier = new CyclicBarrier<>();
+        exeStack = new MyStack<>();
+        symTable = new MyDictionary<>();
+        out = new MyList<>();
+        fileTable = new FileTable<>();
+        heap = new MyHeap<>();
+
+        exeStack.push(prg);
+    }
+
+    public MyIStack<IStmt> getStk() {
+
+        return exeStack;
+    }
+
+    public MyIDictionary<String, Value> getSymTable() {
+
+        return symTable;
+    }
+
+    public MyIList<Value> getOut() {
+
+        return out;
+    }
+
+    public ICyclicBarrier<Integer, Pair<Integer, List<Integer>>> getBarrier() {
+        return barrier;
+    }
+
+    public IFileTable<String, BufferedReader> getFileTable() {
+
+        return fileTable;
+    }
+
+    public MyIHeap<Value> getHeap() {
+
+        return heap;
+    }
+
+    public Boolean isNotCompleted() {
+        return !exeStack.isEmpty();
+    }
+
+    public PrgState oneStep() throws MyException, IOException {
+        if(exeStack.isEmpty())
+            throw new MyException("Program state stack is empty!");
+        IStmt crtStmt = exeStack.pop();
+        return crtStmt.execute(this);
+    }
+
+    public String toString() {
+        return "Program state:\n" + "ID: " + threadID + " \n" + exeStack.toString() + symTable.toString()
+                + out.toString() + fileTable.toString()  + heap.toString() + barrier.toString() + "\n";
+    }
+}

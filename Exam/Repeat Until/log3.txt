@@ -1,0 +1,304 @@
+Program state:
+ID: 1 
+Execution Stack: [(varf string; (varf = test.in; (varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))))))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf = test.in; (varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))))), varf string]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf = test.in; (varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))))), varf string]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf = test.in; (varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))))))]
+SymTable: {varf->()}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf = test.in; (varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))))))]
+SymTable: {varf->()}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))))), varf = test.in]
+SymTable: {varf->()}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))))), varf = test.in]
+SymTable: {varf->()}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))))]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; (varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))))]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))), varf]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))), varf]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))))]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varc int; (varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))))]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))), varc int]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf varc; (print(varc); (varf; ))))), varc int]
+SymTable: {varf->(test.in)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))]
+SymTable: {varf->(test.in), varc->(0)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf varc; (print(varc); (varf; )))))]
+SymTable: {varf->(test.in), varc->(0)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf varc; (print(varc); (varf; )))), varf varc]
+SymTable: {varf->(test.in), varc->(0)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf varc; (print(varc); (varf; )))), varf varc]
+SymTable: {varf->(test.in), varc->(0)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf varc; (print(varc); (varf; ))))]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf varc; (print(varc); (varf; ))))]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf; ))), print(varc)]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf; ))), print(varc)]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: []
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf; )))]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf varc; (print(varc); (varf; )))]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf; )), varf varc]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf; )), varf varc]
+SymTable: {varf->(test.in), varc->(15)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf; ))]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(varc); (varf; ))]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; ), print(varc)]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; ), print(varc)]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; )]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15, 50]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(varf; )]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15, 50]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [, varf]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15, 50]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [, varf]
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15, 50]
+FileTable: [test.in]
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15, 50]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15, 50]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {varf->(test.in), varc->(50)}
+Output List: [15, 50]
+FileTable: []
+Heap: {}
+

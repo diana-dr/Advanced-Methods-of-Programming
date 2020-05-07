@@ -1,0 +1,192 @@
+Program state:
+ID: 1 
+Execution Stack: [(a bool; (v int; (a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); )))))]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); )))), a bool]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); )))), a bool]
+SymTable: {}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); ))))]
+SymTable: {a->(false)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(v int; (a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); ))))]
+SymTable: {a->(false)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); ))), v int]
+SymTable: {a->(false)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); ))), v int]
+SymTable: {a->(false)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); )))]
+SymTable: {a->(false), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(a = true; (( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); )))]
+SymTable: {a->(false), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); )), a = true]
+SymTable: {a->(false), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); )), a = true]
+SymTable: {a->(false), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); ))]
+SymTable: {a->(true), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(( IF(a) THEN(v = 2) ELSE(v = 3)); (print(v); ))]
+SymTable: {a->(true), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); ), ( IF(a) THEN(v = 2) ELSE(v = 3))]
+SymTable: {a->(true), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); ), ( IF(a) THEN(v = 2) ELSE(v = 3))]
+SymTable: {a->(true), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); ), v = 2]
+SymTable: {a->(true), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); ), v = 2]
+SymTable: {a->(true), v->(0)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); )]
+SymTable: {a->(true), v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [(print(v); )]
+SymTable: {a->(true), v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [, print(v)]
+SymTable: {a->(true), v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: [, print(v)]
+SymTable: {a->(true), v->(2)}
+Output List: []
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {a->(true), v->(2)}
+Output List: [2]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {a->(true), v->(2)}
+Output List: [2]
+FileTable: []
+Heap: {}
+
+Program state:
+ID: 1 
+Execution Stack: []
+SymTable: {a->(true), v->(2)}
+Output List: [2]
+FileTable: []
+Heap: {}
+
